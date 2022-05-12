@@ -10,6 +10,8 @@ Welcome to HuBMAP-bags's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   intro
+   examples
    py-hubmapbags
 
 Indices and tables
