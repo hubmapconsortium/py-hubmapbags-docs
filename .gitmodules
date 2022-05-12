@@ -1,0 +1,3 @@
+[submodule "py-hubmapbags"]
+	path = py-hubmapbags
+	url = git@github.com:hubmapconsortium/py-hubmapbags.git

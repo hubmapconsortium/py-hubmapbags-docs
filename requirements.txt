@@ -1,0 +1,6 @@
+sphinx
+pip
+sphinx-tagtoctree
+sphinx-issues
+sphinxcontrib.gist
+sphinx-rtd-theme
