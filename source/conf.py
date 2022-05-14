@@ -14,7 +14,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
 # -- Project information -----------------------------------------------------
 
 project = 'HuBMAP-BAGS'
@@ -29,8 +28,8 @@ author = 'Ivan Cao-Berg and Zishen Wen'
 # ones.
 extensions = ['sphinx_issues', 'sphinx.ext.todo', 'sphinx.ext.viewcode', \
 		'sphinx.ext.autodoc', 'sphinx.ext.mathjax', \
-		'sphinx.ext.ifconfig','sphinx.ext.viewcode', \
-		'sphinxcontrib.gist']
+		'sphinx.ext.ifconfig', 'sphinx.ext.viewcode', \
+		'sphinxcontrib.gist', 'myst_parser']
 
 # GitHub issues
 # Path to GitHub repo {group}/{project}  (note that `group` is the GitHub user or organization)
@@ -53,7 +52,6 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
-
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -80,3 +78,9 @@ html_logo = 'images/logo.jpg'
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}

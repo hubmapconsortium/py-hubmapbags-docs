@@ -4,3 +4,4 @@ sphinx-tagtoctree
 sphinx-issues
 sphinxcontrib.gist
 sphinx-rtd-theme
+myst-parser
